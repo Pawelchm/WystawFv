@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Aplikation.PrimaryController">
+   <children>
+      <BorderPane layoutX="3.0" layoutY="5.0" prefHeight="393.0" prefWidth="594.0">
+         <top>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="74.0" prefWidth="115.0" text="MENU" BorderPane.alignment="CENTER" />
+         </top>
+         <center>
+            <Button mnemonicParsing="false" text="Wystaw Fv" BorderPane.alignment="CENTER" onAction="#switchToWindow" />
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

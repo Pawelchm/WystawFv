@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="533.0" prefWidth="623.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Aplikation.SecondaryController">
+   <children>
+      <AnchorPane layoutX="1.0" prefHeight="540.0" prefWidth="634.0">
+         <children>
+            <DatePicker layoutX="230.0" layoutY="10.0" promptText="Data" />
+            <Separator layoutY="199.0" prefHeight="0.0" prefWidth="600.0" />
+            <TextField layoutX="420.0" layoutY="35.0" promptText="Nazwa" />
+            <TextField layoutX="420.0" layoutY="60.0" promptText="NIP" />
+            <TextField layoutX="420.0" layoutY="85.0" promptText="ADRES" />
+            <TextField layoutX="23.0" layoutY="148.0" promptText="NR rachunku" />
+            <TextField layoutX="420.0" layoutY="110.0" promptText="Adres" />
+            <TextField layoutX="23.0" layoutY="10.0" promptText="Nr fv" />
+            <TextField layoutX="23.0" layoutY="35.0" promptText="Nazwa" />
+            <TextField layoutX="23.0" layoutY="60.0" promptText="NIP" />
+            <TextField layoutX="23.0" layoutY="85.0" promptText="Adres" />
+            <TextField layoutX="23.0" layoutY="110.0" promptText="Adres" />
+            <TextField layoutX="23.0" layoutY="227.0" prefHeight="25.0" prefWidth="149.0" />
+            <TextField layoutX="190.0" layoutY="227.0" prefHeight="25.0" prefWidth="71.0" />
+            <TextField layoutX="272.0" layoutY="227.0" prefHeight="25.0" prefWidth="71.0" />
+            <TextField layoutX="349.0" layoutY="227.0" prefHeight="25.0" prefWidth="71.0" />
+            <TextField layoutX="436.0" layoutY="227.0" prefHeight="25.0" prefWidth="71.0" />
+            <TextField layoutX="522.0" layoutY="227.0" prefHeight="25.0" prefWidth="95.0" />
+            <Label alignment="CENTER" layoutX="25.0" layoutY="202.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="17.0" prefWidth="149.0" text="Nazwa" textAlignment="CENTER" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="177.0" layoutY="202.0" prefHeight="17.0" prefWidth="95.0" text="Cena jedn." />
+            <Label layoutX="294.0" layoutY="202.0" text="Ilosc" />
+            <Label layoutX="371.0" layoutY="202.0" text="Netto" />
+            <Label layoutX="458.0" layoutY="202.0" text="VAT" />
+            <Label layoutX="555.0" layoutY="202.0" text="Brutto" />
+            <Button layoutX="46.0" layoutY="501.0" mnemonicParsing="false" text="Zapisz" />
+            <Button layoutX="31.0" layoutY="270.0" mnemonicParsing="false" text="Dodaj pozycję" />
+            <Label layoutX="455.0" layoutY="463.0" text="Suma" />
+            <TextField layoutX="526.0" layoutY="459.0" prefHeight="25.0" prefWidth="95.0" />
+            <ChoiceBox layoutX="231.0" layoutY="73.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
